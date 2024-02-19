@@ -13,7 +13,7 @@ function App() {
     const [shelfOrder, setShelfOrder] = useState(0);
 
     // const Connection = "http://localhost:3001/";
-    const connection = "https://barcodescanner2-backend.onrender.com";
+    const connection = "https://barcodescanner2-backend.onrender.com/";
 
 
     useEffect(() => {
