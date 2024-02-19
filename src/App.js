@@ -70,11 +70,8 @@ function App() {
                         <th>Brand</th>
                         <th>Name</th>
                         <th>Aisle</th>
-                        <th>Side</th>
                         <th>Section </th>
-                        <th>Shelf </th>
-                        <th>Shelf Position</th>
-                        <th>Category</th>
+                        <th>Shelf</th>
 
                     </tr>   
                 </thead>
@@ -90,11 +87,8 @@ function App() {
                                 <td>{product.brand}</td>
                                 <td>{product.name}</td>
                                 <td>{product.aisle}</td>
-                                <td>{product.side}</td>
                                 <td>{product.section}</td>
                                 <td>{product.shelf}</td>
-                                <td>{product.shelfOrder}</td>
-                                <td>{product.category}</td>
 
                             </tr>          
                         );
