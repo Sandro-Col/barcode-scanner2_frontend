@@ -56,6 +56,9 @@ function App() {
 
   return (
     <div className="App">
+    <br />
+    <h1>Enter Product Information</h1>
+      <br />
       <input type="text" placeholder="UPC..." onChange={(event) => { setBarcode(event.target.value.trim());}}></input>
       <input type="number" placeholder="Aisle..." onChange={(event) => { setAisle(event.target.value);}}></input>
       <input type="text" placeholder="Side..." onChange={(event) => { setSide(event.target.value.trim().toUpperCase());}}></input>
@@ -75,11 +78,7 @@ function App() {
 
       <br />
       <br />
-      <br />
-
-      <br />
-      <br />
-      <br />
+      <h1>Enter Product Information</h1>
 
       <div className="productDisplay">
         <table>
