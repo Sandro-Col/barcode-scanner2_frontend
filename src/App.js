@@ -78,7 +78,7 @@ function App() {
 
       <br />
       <br />
-      <h1>Enter Product Information</h1>
+      <h1>Products</h1>
 
       <div className="productDisplay">
         <table>
