@@ -16,7 +16,7 @@ function App() {
   const [category, setCategory] = useState("");
 
 //   const connection = "http://localhost:3001/";
-  const connection = "https://barcode-scanner2-backend.onrender.com";
+  const connection = "https://barcodescanner2-backend.onrender.com";
 
   useEffect(() => {
     Axios.get(connection + "getProducts").then((response) => {
