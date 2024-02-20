@@ -84,7 +84,7 @@ function App() {
         <table>
           <thead>
             <tr>
-              <th>Barcode</th>
+              <th>UPC</th>
               <th>Brand - Product Name</th>
               <th>Aisle</th>
               <th>Side</th>
