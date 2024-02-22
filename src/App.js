@@ -15,7 +15,7 @@ function App() {
   const [name, setName] = useState("");
   const [category, setCategory] = useState("");
 
-//   const connection = "http://localhost:3001/";
+  //const connection = "http://localhost:3001/";
   const connection = "https://barcodescanner2-backend.onrender.com";
 
   useEffect(() => {
@@ -76,9 +76,13 @@ function App() {
       <br />
       <button onClick={createProduct}> Create Product </button>
 
+      
       <br />
       <br />
-      <h1>Products</h1>
+      <br />
+      <h1>List of Product</h1>
+
+    
 
       <div className="productDisplay">
         <table>
